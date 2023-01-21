@@ -30,10 +30,10 @@ else
 
 fi
 
-KERNEL_DEFCONFIG=phoenix_defconfig
+KERNEL_DEFCONFIG=nethunter_defconfig
 ANYKERNEL3_DIR=$PWD/AnyKernel3/
 KERNELDIR=$PWD/
-FINAL_KERNEL_ZIP=Redcliff-v3.2.7-phoenix.zip
+FINAL_KERNEL_ZIP=Redcliff-nethunter-v3.2.7-phoenix.zip
 export PATH="${PWD}/clang/bin:${PATH}"
 export ARCH=arm64
 export SUBARCH=arm64
